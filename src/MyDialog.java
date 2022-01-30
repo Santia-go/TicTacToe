@@ -5,8 +5,8 @@ import javax.swing.*;
 public class MyDialog extends JDialog {
     JButton   repeat, kill;
     public MyDialog(MainFrame frame, String string) {
-        setLocation(200,200);
-        setSize(300,70);
+        setLocation(200, 200);
+        setSize(300, 70);
         setBackground(Color.yellow);
         setForeground(Color.blue);
 

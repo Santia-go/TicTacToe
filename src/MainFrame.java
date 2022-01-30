@@ -20,7 +20,7 @@ public class MainFrame extends JFrame implements View {
     }
     private void setupUI() {
         c = getContentPane();
-        setLocation(100,100);
+        setLocation(100, 100);
         c.setLayout(new FlowLayout());
         setVisible(true);
     }
@@ -29,15 +29,15 @@ public class MainFrame extends JFrame implements View {
         arena = new JPanel();
         arena.setBackground(Color.WHITE);
         arena.setBorder(new LineBorder(Color.WHITE, 5));
-        arena.setLayout(new GridLayout(3,3,5,5));
-        arena.setPreferredSize(new Dimension(600,600));
+        arena.setLayout(new GridLayout(3, 3, 5, 5));
+        arena.setPreferredSize(new Dimension(600, 600));
         for (int i=0; i<9;i++) {
             MyButton b = new MyButton(i);
-            b.setBorder(new LineBorder(Color.RED,2));
+            b.setBorder(new LineBorder(Color.RED, 2));
             b.addActionListener( this::buttonAction );
             arena.add(b); }
         side = new JPanel();
-        side.setPreferredSize(new Dimension(0,600));
+        side.setPreferredSize(new Dimension(0, 600));
         side.setLayout(new BorderLayout());
         c.add(arena);
         c.add(side);

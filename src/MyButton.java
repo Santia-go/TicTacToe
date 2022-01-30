@@ -8,7 +8,7 @@ public class MyButton extends JButton {
     public MyButton(int i) {
         number = i;
         setBackground(Color.WHITE);
-        setBorder(new LineBorder(Color.RED,2));
+        setBorder(new LineBorder(Color.RED, 2));
 
     }
     public int getNumber() { return number;}

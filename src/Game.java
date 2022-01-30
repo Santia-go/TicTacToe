@@ -5,7 +5,7 @@ class DummyView implements View {
     public void init(){};
 }
 public class Game implements Model {
-    private Position     p;
+    private Position p;
     private GameTreeNode g;
     private View view;
 
@@ -18,7 +18,7 @@ public class Game implements Model {
         catch(InterruptedException e) {}
         g.nodeCount = 0;
         g = new GameTreeNode(p);
-        System.out.println("generate tree... (" + g.nodeCount + " nodes)");
+        System.out.println("Generate tree... (" + g.nodeCount + " nodes)");
     }
     private void makeMove(int place) {
         view.put(place,p.getPlToMv());
