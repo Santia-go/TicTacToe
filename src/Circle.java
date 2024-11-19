@@ -24,6 +24,4 @@ public class Circle extends JPanel {
         circle(width, height, page);
     }
 }
-// TODO include this comment
-// Last last commit
 //This changes to pull
