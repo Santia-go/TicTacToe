@@ -33,4 +33,4 @@ public class Cross extends JPanel {
     }
 }
 
-//Changing cros
+//Changing cross
