@@ -32,3 +32,5 @@ public class Cross extends JPanel {
         cross(width, height, page);
     }
 }
+
+//Changing cross
